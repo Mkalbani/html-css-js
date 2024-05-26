@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border: 2px solid rgb(177, 45, 117)
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.location {
+    text-align: right;
+}
+
+.form-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.radio-container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.radio-container label {
+    margin-right: 10px;
+}
+
+#prepaid{
+    accent-color: rgb(137, 60, 73);
+}
+#postpaid{
+    accent-color: rgb(137, 60, 73);
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="number"],
+.input-container input[type="email"],
+.input-container input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius:  6px;

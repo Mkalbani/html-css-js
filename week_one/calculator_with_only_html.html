@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Using Just HTML</title>
+    <style>
+        .container{
+            text-align: center;
+            height: 100vh;
+            color:blue;
+            align-items: center;
+            display: flex;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            justify-content: center;
+        }
+        form{
+            display: flex;
+            width: fit-content;
+            margin: 20px auto;
+            outline-width: 10px;
+            outline-style: double;
+            outline-offset: 15px;
+            border-radius: 5px;
+        }
+        .calc {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        .buttons{
+            display: grid;
+            grid-template-columns: repeat(3, 40px);
+            gap: 10px;
+        }
+        .buttons input{
+            width: 100%;
+            height: 50px;
+            border-radius:  6px;
+            border: none
+        }
+        .answer {
+            border-radius:  6px;
+            width: 100%;
+            height: 30px;
+            border: 2px solid whitesmoke;
+       
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form name="forms">
+            <div class="calc">
+                <h1>CALCULATOR</h1>
+                <input type="text" class="answer" id="answer" name="screen"><br>
+                <div class="buttons">
+
+                    <input type="button" value="7" onclick="forms.screen.value+='7'">
+                    <input type="button" value="8" onclick="forms.screen.value+='8'">
+                    <input type="button" value="9" onclick="forms.screen.value+='9'">
+                    
+                    <input type="button" value="4" onclick="forms.screen.value+='4'">
+                    <input type="button" value="5" onclick="forms.screen.value+='5'">
+                    <input type="button" value="6" onclick="forms.screen.value+='6'">
+
+                    <input type="button" value="1" onclick="forms.screen.value+='1'">
+                    <input type="button" value="2" onclick="forms.screen.value+='2'">
+                    <input type="button" value="3" onclick="forms.screen.value+='3'">
+
+                    <input type="button" value="." onclick="forms.screen.value+='.'">
+                    <input type="button" value="0" onclick="forms.screen.value+='0'">
+                    <input type="button" value="C" onclick="forms.screen.value=''">
+
+    
+                    <input type="button" value="+" onclick="forms.screen.value+='+'">
+                    <input type="button" value="-" onclick="forms.screen.value+='-'">
+
+                    <input type="button" value="*" onclick="forms.screen.value+='*'">
+                    <input type="button" value="/" onclick="forms.screen.value+='/'">
+                    <input type="button" value="%" onclick="forms.screen.value=((forms.screen.value)/100)+'%'">
+                    <input type="button" value="=" onclick="forms.screen.value=eval(forms.screen.value)">
+                </div>
+
+
+            </div>
+        </form>
+
+        </form>
+    </div>
+    
+</body>
+</html>
