@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <style>
 nav {
   background-color: #333; 
@@ -44,6 +45,15 @@ div {
   opacity: 0.75;
 }
     </style>
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
     <title>About Us</title>
 </head>
 <body>
@@ -66,5 +76,6 @@ div {
       <p>Welcome to our food menu website! Learn more about our mission and team here. Every bite takes you closer to heaven.We guarantee it!!!😉😉😉 </p>
 
     </div>
+  
 </body>
 </html>
