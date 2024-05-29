@@ -6,22 +6,8 @@
 </head>
 <style>
         body {
-            padding: 50px 20px
-
-        }
-        table {
-            background-color: white;
-        }
-    th, td {
-            padding: 10px;
-            border: 1px solid black;
-            text-align: center;
-        }
-        .header {
-            margin-bottom: 20px;
-            color: white;
-        }
-        .main{
+            padding: 50px 20px;
+            background-color: blue;
             margin: 20px 20px;
             background-color: rgb(61, 61, 173);
             display: flex;
@@ -30,11 +16,25 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
-
+        }
+        table {
+            background-color: white;
+        }
+    th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .header {
+            margin-bottom: 20px;
+            color: white;
         }
         
     .t-header{
-        border: 100px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    th, .first1 {
+        background-color: rgb(118, 118, 151);
     }
 
 </style>
@@ -42,11 +42,10 @@
     <nav>
         <a href=""></a>
     </nav>
-    <div class="main">
     <h3 class="header">Weekly Planner</h3>
-    <table>
-        <tr class="t-header">
-            <th> </th>
+    <table class="t-header">
+        <tr >
+            <th class="first"> </th>
             <th>Monday</th>
             <th>Tuesday</th>
             <th>Wednesday</th>
@@ -56,7 +55,7 @@
             <th>Sunday</th>
         </tr>
         <tr>
-            <td>6am - 7am</td>
+            <td class="first1">6am - 7am</td>
             <td></td>
             <td></td>
             <td></td>
@@ -66,7 +65,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>7am - 8am</td>
+            <td class="first1">7am - 8am</td>
             <td></td>
             <td></td>
             <td></td>
@@ -76,7 +75,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>8am - 9am</td>
+            <td class="first1">8am - 9am</td>
             <td></td>
             <td></td>
             <td></td>
@@ -86,7 +85,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>9am - 10am</td>
+            <td class="first1">9am - 10am</td>
             <td></td>
             <td></td>
             <td></td>
@@ -96,7 +95,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>10am - 11am</td>
+            <td class="first1">10am - 11am</td>
             <td></td>
             <td></td>
             <td></td>
@@ -106,7 +105,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>11am - 12pm</td>
+            <td class="first1">11am - 12pm</td>
             <td></td>
             <td></td>
             <td></td>
@@ -116,7 +115,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>12pm - 1pm</td>
+            <td class="first1">12pm - 1pm</td>
             <td></td>
             <td></td>
             <td></td>
@@ -126,7 +125,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>1pm - 2pm</td>
+            <td class="first1">1pm - 2pm</td>
             <td></td>
             <td></td>
             <td></td>
@@ -136,7 +135,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>2pm - 3pm</td>
+            <td class="first1">2pm - 3pm</td>
             <td></td>
             <td></td>
             <td></td>
@@ -146,7 +145,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>3pm - 4pm</td>
+            <td class="first1">3pm - 4pm</td>
             <td></td>
             <td></td>
             <td></td>
@@ -156,7 +155,57 @@
             <td></td>
         </tr>
         <tr>
-            <td>4pm - 5pm</td>
+            <td class="first1">4pm - 5pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first1">5pm - 6pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first1">6pm - 7pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first1">8pm - 9pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first1">10pm - 11pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="first1">11pm - 12am</td>
             <td></td>
             <td></td>
             <td></td>
@@ -166,6 +215,5 @@
             <td></td>
         </tr>
     </table>
-</div>
 </body>
 </html>
