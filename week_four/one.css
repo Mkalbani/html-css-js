@@ -1,0 +1,83 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(237, 24, 205);
+    margin-top: 50px;
+
+}
+
+form{
+    text-align: left;
+}
+
+.main {
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    padding: 20px 40px;
+    margin:auto;
+}
+.fb {
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width:40%;
+}
+.x{
+    padding: 10px;
+    background-color: rgb(19, 114, 187);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width:40%;
+
+}
+.fa-brands{
+    padding-right: 5px;
+}
+.lg{
+    padding: 10px;
+    /* padding-left: 90px;
+    padding-right: 90px; */
+    background-color: rgb(169, 7, 145);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width:82%;
+
+
+}
+    
+input{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 7px;
+}
+
+.pink{
+    color: rgb(237, 24, 205);
+}
+
+.d2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.d2 label {
+    text-align: left;
+}
+
+.d2 input[type="checkbox"] {
+    margin-right: 5px; /* Adjust the spacing here */
+}

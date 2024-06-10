@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items:center
+}
+input{
+    padding: 20px;
+    padding-right: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0.5px solid grey;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+.btn{
+    background-color: inherit;
+    color: inherit;
+    padding: 15px;
+    padding-right: 90px;
+    padding-left: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+button{
+    text-align: center;
+    background-color: blue;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    padding-right: 110px;
+    padding-left: 110px;
+    color: aliceblue;
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Let us know how we can improve freeCodeCamp</h1>
+        <p>
+            <label for="name">* Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </p>
+        <p>
+            <label for="email">* Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        </p>
+        <p>
+            <label for="age">* Age:</label>
+            <input type="number" id="age" name="age" placeholder="Age" required>
+        </p>
+        <p>
+            <label for="role">Which option best describes your current role?</label>
+            <select id="role" name="role">
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Learner</option>
+                <option value="preferNotToSay">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+        <p>
+            <label>* How likely is it that you would recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" id="definitely" name="recommend" value="definitely" required>
+            <label for="definitely">Definitely</label><br>
+            <input type="radio" id="maybe" name="recommend" value="maybe" required>
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" id="notSure" name="recommend" value="notSure" required>
+            <label for="notSure">Not sure</label>
+        </p>
+        <p>
+            <label for="likeMost">What do you like most in FCC:</label>
+            <select id="likeMost" name="likeMost">
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="openSource">Open Source</option>
+            </select>
+        </p>
+        <p>
+            <label>Things that should be improved in the future (Check all that apply):</label><br>
+            <input type="checkbox" id="frontend" name="improvements" value="frontend">
+            <label for="frontend">Front-end Projects</label><br>
+            <input type="checkbox" id="backend" name="improvements" value="backend">
+            <label for="backend">Back-end Projects</label><br>
+            <input type="checkbox" id="dataViz" name="improvements" value="dataViz">
+            <label for="dataViz">Data Visualization</label>
+        </p>
+    </form>
+</body>
+</html>

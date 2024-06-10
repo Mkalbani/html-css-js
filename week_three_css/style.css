@@ -1,0 +1,86 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    background-image: url('blue-orange.jpeg');
+    background-size: cover;
+    background-position: center;
+} */
+body{
+    background-color: rgb(179, 204, 81);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    border: 5px solid rgb(14, 93, 14);
+    margin-bottom: 20px;
+}
+.form-container {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    text-align: center;
+}
+
+.form-container h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    color: #fff;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.social-login button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+h1, label, p1, input{
+    text-align: center;
+    color: #000;
+
+}
