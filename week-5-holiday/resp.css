@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/premium-photo/sports-fans-screaming-stands-match_1002690-122.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80vh;
+
+  }
+
+  li {
+    font-weight:bold;
+    color: black;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .logo{
+    display: flex;
+    gap: 5px;
+  }
+  .logo h2{
+    padding-top: 10px;
+  }
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #007BFF;
+  }
+  .nav-icons{
+    margin-right: 100px; 
+  }
+
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+  }
+
+  .btn{
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+    border: none;
+  }
+
+  h1, h5 {
+    color: white;
+  }
+ .nav-icons  a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  
+  .nav-icons a:hover {
+    color: #007BFF;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; 
+    }
+  
+    .navbar {
+      flex-wrap: wrap; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-icons {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-top: 10px;
+      border-top: 1px solid #ddd;
+    }
+  }
+  

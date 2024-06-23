@@ -1,0 +1,71 @@
+div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.one{
+    background-color: brown;
+    color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 50px;
+    text-decoration: none;
+}
+.one:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color:black;
+}
+.two{
+    background-color:blue;
+    color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 50px;
+    text-decoration: none;
+}
+.two:hover{
+    cursor: pointer;
+    background-color:aqua;
+    color:black;
+}
+.three{
+    background-color: black;
+    color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 50px;
+    text-decoration: none;
+}
+.three:hover{
+    cursor: pointer;
+    background-color:aquamarine;
+    color:#fff;
+}
+.four{
+    background-color:chocolate;
+    color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 50px;
+    text-decoration: none;
+}
+.four:hover{
+    cursor: pointer;
+    background-color:green;
+    color:black;
+}
+.five{
+    background-color:darkslategray;
+    color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 50px;
+    text-decoration: none;
+}
+.five:hover{
+    cursor: pointer;
+    background-color:deeppink;
+    color:black;
+}

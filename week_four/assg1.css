@@ -87,3 +87,15 @@ input{
     font-weight: 353;
     font-style: normal;
 }
+.fa-linkedin{
+    border-radius: 50px;
+}
+
+.sp{
+    border-radius: 100px;
+}
+
+/* .a{
+    display: flex;
+    align-items: first baseline;
+} */

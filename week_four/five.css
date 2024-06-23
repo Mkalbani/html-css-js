@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+
+}
+
+ul{
+    background-color: aqua;
+    width: 50%;
+    float: right;
+
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin:10px;
+}

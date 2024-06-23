@@ -1,0 +1,28 @@
+div {
+
+    border-radius: 5px;
+    border: 1px solid ;
+    margin-top: 0px;
+}
+ol{
+    border-top: 50px solid blue;
+
+}
+h3{
+    color: #fff;
+}
+
+.header{
+    background-color: aqua;
+}
+
+li {
+    list-style:none;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid 
+
+}
+footer{
+    background-color: aqua;
+}

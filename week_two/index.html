@@ -8,6 +8,8 @@
     body{
         background: url('background3.jpeg');
         background-size: cover;
+        /* display:flex; */
+        flex-flow: wrap;
     }
     nav li {
   display: inline-block; 
@@ -59,19 +61,23 @@ nav a {
   background-color: rgb(182, 70, 1);
 }
 .button {background-color: rgb(182, 70, 1)}
+.sec{
+  justify-content: ;
+}
 </style>
 <body>
         <nav>
         <ul>
-            <li><h2 style="color:rgb(182, 70, 1)">PraRoz🌑</h2></li>
-          <li><a href="roysha.html">EXERCISE 1</a></li>
+          <div class="main"><li><h2 style="color:rgb(182, 70, 1)">PraRoz🌑</h2></li></div>
+          <div class="sec">
+            <li><a href="roysha.html">EXERCISE 1</a></li>
           <li><a href="weekly_planner.html">EXERCISE 2</a></li>
           <li><a href="table2.html">EXERCISE 3</a></li>
           <li><a href="Food Menu Website/home.html">EXERCISE 4</a></li>
           <li><a href="image-gallery.html">CONTACT</a></li>
-        
-            <input style="border: 2px solid rgb(182, 70, 1); margin:0;" type="search"  placeholder="Type to Search" id="">
-            <input style="border: 2px solid rgb(182, 70, 1);" type="submit" class="search" value="Search">
+          <li><input style="border: 2px solid rgb(182, 70, 1); margin:0;" type="search"  placeholder="Type to Search" id=""></li>
+          <li><input style="border: 2px solid rgb(182, 70, 1);" type="submit" class="search" value="Search"></li>
+        </div>
         </ul>
 
       </nav>
